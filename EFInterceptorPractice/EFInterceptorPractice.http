@@ -1,0 +1,6 @@
+@EFInterceptorPractice_HostAddress = http://localhost:5007
+
+GET {{EFInterceptorPractice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

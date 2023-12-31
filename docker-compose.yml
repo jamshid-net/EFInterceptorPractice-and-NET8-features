@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  efinterceptorpractice:
+    image: ${DOCKER_REGISTRY-}efinterceptorpractice
+    build:
+      context: .
+      dockerfile: EFInterceptorPractice/Dockerfile
